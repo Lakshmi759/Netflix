@@ -168,19 +168,17 @@ body {
 }
 
 /* Trending section */
-.trending {
-    padding: 0 155px;
-}
-
 .trending h1{
     font-size: 2rem;
     font-weight: 500;
+    margin-left: 155px;
 }
 
 .trending-header {
     display: flex;
     gap: 20px;
-    font-size: 4rem;   
+    font-size: 4rem;
+    margin-left: 155px; 
 }
 
 .trending-select {
@@ -204,9 +202,15 @@ body {
 
 .trending-movies {
     display: flex;
-    gap: 27px;
-    margin-top: 1.75rem;
+    gap: 35px;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     margin-bottom: 2rem;
+    margin-left: 155px;
+    margin-right: 175px;
+    overflow: auto;
 }
 
 .trending-movies::-webkit-scrollbar {
@@ -227,7 +231,7 @@ body {
 }
 
 .movie-card:hover {
-    transform: scale(1.03);
+    transform: scale(1.06);
 }
 
 .no1 {
@@ -265,8 +269,9 @@ body {
     z-index: 999;
     right: -3rem;
     transform: translateY(1px);
-    bottom: 3.5rem;
-    font-size: 7rem;
+    bottom: 4rem;
+    font-size: 6rem;
+    left: -0.625rem
 }
 
 .number::before {
