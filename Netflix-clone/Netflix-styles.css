@@ -520,6 +520,7 @@ footer {
             max-height: 0;
             overflow: hidden;
             transition: max-height 0.3s ease-out;
+            font-size: 1.5rem;
 }
 
         /* CSS-only accordion functionality */
@@ -535,6 +536,7 @@ footer {
             max-height: 500px;
             padding: var(--spacing-lg);
 }
+
 @media (max-width: 768px) {
     .faq-question {
         font-size: 1.25rem;
